@@ -1,16 +1,3 @@
-# Interactive JSON Editor
-
-An interactive React component for editing JSON Components.
-
-## Installation
-
-```bash
-npm install interactive-json-editor
-```
-
-## Usage
-
-```jsx
 import React, { useState, useCallback } from 'react';
 import { InteractiveJsonEditor, jsonToEntity } from 'interactive-json-editor';
 
@@ -96,4 +83,3 @@ const TestApp = () => {
 };
 
 export default TestApp;
-```
